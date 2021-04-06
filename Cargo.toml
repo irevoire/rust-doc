@@ -1,0 +1,13 @@
+[package]
+name = "rust"
+version = "0.1.0"
+authors = ["tamo <tamo@meilisearch.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+scraper = "0.12.0"
+ego-tree = "*" # let it sync with the scraper
+walkdir = "2.3.2"
+url = "2"
